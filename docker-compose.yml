@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  dog_images:
+    image: dog_images
+    build: .
+    environment:
+      NODE_ENV: ${APP_ENV}
+    ports:
+      - 3000:3000
