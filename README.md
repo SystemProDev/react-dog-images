@@ -15,3 +15,12 @@
 ## Open localhost:3000 in a browser to see the app running
 
  To run test type "npm test"
+
+## Run with docker
+
+```docker
+docker-compose build
+docker-compose up
+
+visit: http://localhost:3000
+```
